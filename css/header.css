@@ -4,9 +4,7 @@ body {
     background-size: 100%;
     background-attachment: fixed;
     }
-.header_two, .navbar_po, .di, .otmena, .navbar_str{
-  display: none;
-}
+
 .header_one{
   position: fixed;
   top: 0px;
@@ -37,14 +35,14 @@ main{
   border-end-end-radius: 20px;
 }
 
-@media(max-width:900px){
-  body{
-    background-size: 300%;
+@media(min-width:900px){
+  .header_two, .navbar_po, .di, .otmena, .navbar_str{
+    display: none;
   }
 }
 @media(max-width:926px){
   body{
-    background-size: 300%;
+    background-size: 330%;
   }
 }
 @media(max-width:926px){
