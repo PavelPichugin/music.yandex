@@ -1,5 +1,5 @@
 body {
-    background-image: url("Blue-and-Red-Neon-Lines.jpg");
+    background-image: url("1.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
@@ -42,7 +42,7 @@ main{
 }
 @media(max-width:926px){
   body{
-    background-image: url("photo1677958895.jpeg");
+    background-image: url("2.jpg");
   }
 }
 @media(max-width:926px){
