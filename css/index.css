@@ -64,9 +64,12 @@ h2{
     }
     .cards{
         width: 150px;
-        margin: 2px;
+        margin: 5px;
     }
     .cards h2{
         font-size: 15px;
+    }
+    .g-1{
+        margin-left: 4%;
     }
 }

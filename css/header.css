@@ -43,6 +43,7 @@ main{
 @media(max-width:926px){
   body{
     background-image: url("2.jpg");
+    background-size: 120%;
   }
 }
 @media(max-width:926px){
