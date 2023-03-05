@@ -89,8 +89,8 @@ main{
     width: 100%;
     height: 100%;
     z-index: 1000000000;
-    background-color: black;
-    top: -100%;
+    backdrop-filter: blur(10px);
+    background: rgba(0, 0, 0, 0.589);    top: -100%;
     transition: 0.3s;
   }
   .posl{
@@ -113,4 +113,19 @@ main{
     right: 10px;
     transition: 0.3s;
   }
+  .tirle_mobil{
+    font-size: 25px;
+    margin-top: 10px;
+  }
+  .tirle_mobil:hover{
+    text-decoration: underline;
+  }
+  .img_footer{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    padding: 0px;
+    margin: 10px;
+  }
+  
 }
