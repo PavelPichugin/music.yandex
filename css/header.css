@@ -93,13 +93,16 @@ main{
     backdrop-filter: blur(10px);
     background: rgba(0, 0, 0, 0.589);    top: -100%;
     transition: 0.3s;
+    top: 0%;
+    right: -100%;
+
   }
   .posl{
     top: -50px;
     transition: 0.3s;
   }
   .do{
-    top: 0%;
+    right: 0%;
     transition: 0.3s;
   }
   .otmena{
@@ -127,6 +130,28 @@ main{
     border-radius: 50px;
     padding: 0px;
     margin: 10px;
+  }
+  .pashalka_one{
+    top: -30px;
+    position: fixed;
+    left: -10%;
+    width: 90px;
+    transform: rotate(90deg);
+    z-index: 100000000000000000000000000000;
+    transition: 0.3s;
+  }
+  .pashalka_one_before{
+    left: -100%;
+  }
+  .pashalka_two{
+    bottom: -10%;
+    position: fixed;
+    width: 90px;
+    z-index: 100000000000000000000000000000;
+    transition: 0.3s;
+  }
+  .pashalka_two_before{
+    bottom: -100%;
   }
   
 }
