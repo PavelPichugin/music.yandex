@@ -3,10 +3,11 @@
     width: 150px;
     object-fit: cover;
     border-radius: 20px;
+
 }
 .album{
     background: rgba(255, 255, 255, 0.11);
     backdrop-filter: blur(10px);
     border-radius: 20px;
-    color: white;
+    color: white;.
 }

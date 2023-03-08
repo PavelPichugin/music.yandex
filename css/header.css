@@ -36,6 +36,8 @@ main{
 .pashalka_one{
   display: none;
 }
+.pashalka_one_before{
+}
 .pashalka_two{
   display: none;
 }
@@ -120,12 +122,10 @@ main{
     width: 50px;
     z-index: 100000000000000000000000;
     transition: 0.3s;
-    transform: rotate(0deg);
   }
   .otmena_post{
     right: 10px;
     transition: 0.3s;
-    transform: rotate(-180deg);
   }
   .tirle_mobil{
     font-size: 25px;

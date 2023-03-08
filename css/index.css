@@ -18,6 +18,7 @@ h2{
     backdrop-filter: blur(10px);
     color: white;
     padding: 15px;
+    margin: 5px;
     outline: 0px solid white;
     text-align: center;
 }
@@ -51,7 +52,9 @@ h2{
 .logo{
     width: max-content;
 }
-
+.container{
+    margin-left: 0px;
+}
 
 @media(max-width:926px){
     .cards img{
@@ -61,9 +64,12 @@ h2{
     }
     .cards{
         width: 150px;
-        margin: 5px;
+        margin:2px 0px;
     }
     .cards h2{
         font-size: 15px;
+    }
+    .g-1{
+        margin-left: 1%;
     }
 }
