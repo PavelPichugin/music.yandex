@@ -31,8 +31,18 @@ main{
   background: linear-gradient(90deg,#ff5c4d,#eb469f 26.56%,#8341ef 75%,#3f68f9);
 }
 .footer_one{
-  border-end-start-radius: 20px;
-  border-end-end-radius: 20px;
+  display: none;
+}
+.pashalka_one{
+  display: none;
+}
+.pashalka_one_before{
+}
+.pashalka_two{
+  display: none;
+}
+.pashalka_two_before{
+  display: none;
 }
 
 @media(min-width:900px){
@@ -112,10 +122,12 @@ main{
     width: 50px;
     z-index: 100000000000000000000000;
     transition: 0.3s;
+    transform: rotate(0deg);
   }
   .otmena_post{
     right: 10px;
     transition: 0.3s;
+    transform: rotate(-180deg);
   }
   .tirle_mobil{
     font-size: 25px;
@@ -139,9 +151,11 @@ main{
     transform: rotate(90deg);
     z-index: 100000000000000000000000000000;
     transition: 0.3s;
+    display: inline;
   }
   .pashalka_one_before{
     left: -100%;
+    display: inline;
   }
   .pashalka_two{
     bottom: -10%;
@@ -149,9 +163,11 @@ main{
     width: 90px;
     z-index: 100000000000000000000000000000;
     transition: 0.3s;
+    display: inline;
   }
   .pashalka_two_before{
     bottom: -100%;
+    display: inline;
   }
   
 }

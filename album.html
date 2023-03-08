@@ -7,31 +7,17 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/album.css">
     <link rel="stylesheet" href="css/header.css">
+    <script src="js/header.js "defer></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 </head>
 <body>
-  <header class="p-2 mb-3 border-bottom header border-bottom-0 position-absolute top-0 w-100">
-    <div class="container me-0  ">
-      <div class="d-flex flex-wrap align-items-center justify-content-start justify-content-lg-start">
-        <a href="index.html" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none logo">
-          <h3 class="logo">Яндекс Музыка</h3>  
-        </a>
-
-        <ul class="nav col-12 col-lg-auto  mb-2 justify-content-center mb-md-0" >
-          <li><a href="#" class="nav-link px-2 link-light">Overview</a></li>
-          <li><a href="#" class="nav-link px-2 link-light">Inventory</a></li>
-          <li><a href="#" class="nav-link px-2 link-light">Customers</a></li>
-          <li><a href="#" class="nav-link px-2 link-light">Products</a></li>
-        </ul>
-
-        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3 me-auto me-lg-auto" role="search">
-          <input type="search" class="form-control fo" placeholder="Search..." aria-label="Search">
-        </form>
-        <span class="badge rounded-pill  m-2">плюс</span>
-        <div class="dropdown text-end ava">
-          <a href="#" class="d-block link-light text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+  <header>
+    <div class="header_two row m-0 p-0 posll">
+      <div class="col align-items-center znachoc">
+        <div class="dropdown text-start ava">
+          <a href="#" class="link-light text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
             <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">
           </a>
           <ul class="dropdown-menu text-small ">
@@ -42,8 +28,59 @@
             <li><a class="dropdown-item" href="#">Sign out</a></li>
           </ul>
         </div>
+        <span style="position: fixed;left: 19%;top: 10px;" class="di badge one rounded-pill m-2 ">плюс</span>
       </div>
+      <div class="col text-end"><img class="navbar_po" src="assets/icons8-menu.svg" alt=""></div>
+    </div>
+    <img class="otmena" src="assets/icons8-отмена.svg" alt="">
+    <div class="navbar_str w-100 h-100 text-center">
+      <div style="margin-top: 20%;" class="tirle_mobil"><a class="text-light text-decoration-none" href="">Overview</a></div>
+      <div class="tirle_mobil"><a class="text-light text-decoration-none" href="">Inventory</a></div>
+      <div class="tirle_mobil"><a class="text-light text-decoration-none" href="">Customers</a></div>
+      <div class="tirle_mobil"><a class="text-light text-decoration-none" href="">Products</a></div>
+      <div style="position: absolute; bottom: 20px; right:15%;left:15%;" class="">
+        <a href="https://my.mshp.ru/pupil/root/main"><img class="img_footer" src="assets/footer/105228.upto100x100.png" alt=""></a>
+        <a href="https://vk.me/club277240"><img class="img_footer" src="assets/footer/icons8-vk-в-круге-150.png" alt=""></a>
+        <a href="https://t.me/MSHP_INFO_2bot?start=clk-383502"><img class="img_footer" src="assets/footer/Telegram_logo.svg.png" alt=""></a>
+      </div>
+    </div>
+
+     
+    <div class="header_one p-2 mb-3 border-bottom header border-bottom-0 top-0 w-100">
+      <div class="container me-0  ">
+        <div class="d-flex flex-wrap align-items-center justify-content-start justify-content-lg-start">
+          <a href="index.html" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none logo">
+            <h3 class="logo">Яндекс Музыка</h3>  
+          </a>
+
+          <ul class="nav col-12 col-lg-auto  mb-2 justify-content-center mb-md-0" >
+            <li><a href="#" class="nav-link px-2 link-light">Overview</a></li>
+            <li><a href="#" class="nav-link px-2 link-light">Inventory</a></li>
+            <li><a href="#" class="nav-link px-2 link-light">Customers</a></li>
+            <li><a href="#" class="nav-link px-2 link-light">Products</a></li>
+          </ul>
+          
+
+          <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3 me-auto me-lg-auto" role="search">
+            <input type="search" class="form-control fo" placeholder="Search..." aria-label="Search">
+          </form>
+          <span class="badge rounded-pill  m-2">плюс</span>
+          <div class="dropdown text-end ava">
+            <a href="#" class="d-block link-light text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">
+            </a>
+            <ul class="dropdown-menu text-small ">
+              <li><a class="dropdown-item" href="#">New project...</a></li>
+              <li><a class="dropdown-item" href="#">Settings</a></li>
+              <li><a class="dropdown-item" href="#">Profile</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Sign out</a></li>
+            </ul>
+          </div>
+        </div>
+    </div>
   </div>
+  
 </header>
   <main>
     <div class="container">
